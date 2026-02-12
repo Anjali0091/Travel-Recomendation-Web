@@ -1,47 +1,34 @@
-# Travel Recommendation App
+# Travel Recommendation App - Frontend
 
-## Overview
-The Travel Recommendation App is a web application designed to help users find travel destinations based on their preferences. Users can select the type of place they want to visit, their budget, and the location, and the app will suggest suitable travel destinations.
+This is the frontend part of the Travel Recommendation App. It is built using HTML, CSS, and JavaScript, and is designed to provide users with travel recommendations based on their preferences.
 
 ## Project Structure
-The project is divided into three main components:
-- **Frontend**: Contains the user interface of the application.
-- **Backend**: Handles the server-side logic and API endpoints.
-- **Database**: Manages the database schema and data.
+
+- `src/index.html`: The main HTML document for the application.
+- `src/css/style.css`: Contains styles for the application.
+- `src/js/script.js`: JavaScript code for handling user interactions and API calls.
 
 ## Setup Instructions
 
-### Frontend
-1. Navigate to the `frontend` directory.
-2. Install dependencies using npm:
+1. **Clone the repository**:
+   ```
+   git clone <repository-url>
+   cd travel-recommendation-app/frontend
+   ```
+
+2. **Install dependencies**:
    ```
    npm install
    ```
-3. Start the frontend application:
-   ```
-   npm start
-   ```
 
-### Backend
-1. Navigate to the `backend` directory.
-2. Install dependencies using npm:
-   ```
-   npm install
-   ```
-3. Start the backend server:
-   ```
-   npm run start
-   ```
+3. **Run the application**:
+   You can open `src/index.html` in your web browser to view the application.
 
-### Database
-- Ensure that the database is set up according to the schema defined in `database/schema.sql`.
-- Use migration files in the `database/migrations` directory to manage schema changes.
-- Seed the database with initial data using the files in the `database/seeds` directory.
+## Usage
 
-## Usage Guidelines
-- Users can interact with the frontend to select their travel preferences.
-- The backend will process these preferences and return suitable travel recommendations.
-- The application is designed to be user-friendly and responsive.
+- Select the type of place you want to visit, your budget, and the location.
+- Click the "Suggest Places" button to get travel recommendations.
 
 ## Contributing
-Contributions are welcome! Please submit a pull request or open an issue for any suggestions or improvements.
+
+Feel free to submit issues or pull requests if you have suggestions or improvements for the frontend application.
