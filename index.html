@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Recommendation App</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<h1>🌍 Travel Recommendation App</h1>
+
+<label>Choose Place Type:</label>
+<select id="type">
+    <option>Mountain</option>
+    <option>Ocean</option>
+    <option>Nightlife</option>
+    <option>Day Enjoyment</option>\
+    <option>Adventure</option>
+    <option>Relaxation</option>
+    <option>Historical</option>
+    <option>Nature</option>
+</select>
+
+<label>Choose Budget:</label>
+<select id="budget">
+    <option>Low</option>
+    <option>Medium</option>
+    <option>High</option>
+</select>
+
+<label>Location:</label>
+<select id="location">
+    <option>India</option>
+    <option>Abroad</option>
+    <option>Both</option>
+</select>
+
+<br><br>
+<button onclick="suggest()">Suggest Places</button>
+
+<div id="result"></div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
